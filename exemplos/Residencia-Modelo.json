@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "id": "idmvg3w1ihlsw4bm1",
+  "name": "Residência Modelo",
+  "created": "2026-10-20T03:10:55.145Z",
+  "updated": "2026-10-20T03:10:55.145Z",
+  "terrain": {
+    "w": 20,
+    "d": 30,
+    "front": 3,
+    "back": 2,
+    "side": 1.5
+  },
+  "building": {
+    "w": 12,
+    "d": 16,
+    "floors": 2,
+    "h": 2.8,
+    "roof": "gable",
+    "showRoof": false
+  },
+  "requirements": {
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "living": 1,
+    "kitchens": 1,
+    "laundry": 1,
+    "garage": 1,
+    "hallway": true,
+    "repeat": true
+  },
+  "levels": [
+    {
+      "id": "idmvg3w1iivinvz1b",
+      "name": "Térreo",
+      "rooms": [
+        {
+          "type": "Sala",
+          "name": "Sala",
+          "weight": 22,
+          "id": "idmvg3w1ih2ksj5qe",
+          "x": 0,
+          "y": 0,
+          "w": 4.125,
+          "h": 7.817,
+          "color": "#fff0dd"
+        },
+        {
+          "type": "Cozinha",
+          "name": "Cozinha",
+          "weight": 14,
+          "id": "idmvg3w1ihrjrwd3r",
+          "x": 4.125,
+          "y": 0,
+          "w": 2.625,
+          "h": 7.817,
+          "color": "#fce8e6"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 1",
+          "weight": 14,
+          "id": "idmvg3w1ih4bvq7uv",
+          "x": 6.75,
+          "y": 0,
+          "w": 5.25,
+          "h": 3.909,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 2",
+          "weight": 14,
+          "id": "idmvg3w1ihspsfqej",
+          "x": 6.75,
+          "y": 3.909,
+          "w": 5.25,
+          "h": 3.908,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 3",
+          "weight": 14,
+          "id": "idmvg3w1ihdoylwz1",
+          "x": 0,
+          "y": 7.817,
+          "w": 5.91,
+          "h": 3.472,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Banheiro",
+          "name": "Banheiro 1",
+          "weight": 6,
+          "id": "idmvg3w1ihxztikc2",
+          "x": 0,
+          "y": 11.289,
+          "w": 3.733,
+          "h": 2.356,
+          "color": "#ddf5f8"
+        },
+        {
+          "type": "Banheiro",
+          "name": "Banheiro 2",
+          "weight": 6,
+          "id": "idmvg3w1ihipdrbhd",
+          "x": 0,
+          "y": 13.645,
+          "w": 3.733,
+          "h": 2.355,
+          "color": "#ddf5f8"
+        },
+        {
+          "type": "Lavanderia",
+          "name": "Lavanderia",
+          "weight": 7,
+          "id": "idmvg3w1ihnziyexn",
+          "x": 3.733,
+          "y": 11.289,
+          "w": 2.177,
+          "h": 4.711,
+          "color": "#e6f4ed"
+        },
+        {
+          "type": "Garagem",
+          "name": "Garagem",
+          "weight": 23,
+          "id": "idmvg3w1iib7unlh3",
+          "x": 5.91,
+          "y": 7.817,
+          "w": 6.09,
+          "h": 5.536,
+          "color": "#e7e9ec"
+        },
+        {
+          "type": "Circulação",
+          "name": "Circulação",
+          "weight": 11,
+          "id": "idmvg3w1iio62dntj",
+          "x": 5.91,
+          "y": 13.353,
+          "w": 6.09,
+          "h": 2.647,
+          "color": "#f3eeff"
+        }
+      ],
+      "customWalls": [],
+      "openings": [
+        {
+          "id": "idmvg3w1iiymtvoat",
+          "kind": "door",
+          "x": 4.125,
+          "y": 1.955,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1iidnxsz2u",
+          "kind": "window",
+          "x": 0,
+          "y": 1.955,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ii310uny6",
+          "kind": "window",
+          "x": 5.018,
+          "y": 0,
+          "width": 1.16
+        },
+        {
+          "id": "idmvg3w1iihiec2s6",
+          "kind": "door",
+          "x": 9.375,
+          "y": 3.909,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1iiv86kzqx",
+          "kind": "window",
+          "x": 9.375,
+          "y": 0,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1iik4pecwe",
+          "kind": "window",
+          "x": 12,
+          "y": 5.863,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1iix1qclz3",
+          "kind": "door",
+          "x": 1.867,
+          "y": 7.817,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1iipbd1xdm",
+          "kind": "window",
+          "x": 0,
+          "y": 9.553,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1iij53og4z",
+          "kind": "door",
+          "x": 1.867,
+          "y": 11.289,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ii40x6gmb",
+          "kind": "window",
+          "x": 0,
+          "y": 12.321,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1iiujbd5tg",
+          "kind": "door",
+          "x": 1.867,
+          "y": 13.645,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1iizmilj9s",
+          "kind": "window",
+          "x": 1.867,
+          "y": 16,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1iil7dr737",
+          "kind": "door",
+          "x": 3.733,
+          "y": 14.823,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ii1ziq80j",
+          "kind": "window",
+          "x": 5.018,
+          "y": 16,
+          "width": 1.16
+        },
+        {
+          "id": "idmvg3w1iip16t4ky",
+          "kind": "door",
+          "x": 9.375,
+          "y": 7.817,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1iiodb3llq",
+          "kind": "window",
+          "x": 12,
+          "y": 9.553,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ii52rj75q",
+          "kind": "door",
+          "x": 9.375,
+          "y": 13.353,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ii9j7r1nf",
+          "kind": "window",
+          "x": 9.375,
+          "y": 16,
+          "width": 1.2
+        }
+      ]
+    },
+    {
+      "id": "idmvg3w1ijoxuo6ln",
+      "name": "Pavimento 2",
+      "rooms": [
+        {
+          "type": "Sala",
+          "name": "Sala",
+          "weight": 22,
+          "id": "idmvg3w1ijh1qvfty",
+          "x": 0,
+          "y": 0,
+          "w": 4.125,
+          "h": 7.817,
+          "color": "#fff0dd"
+        },
+        {
+          "type": "Cozinha",
+          "name": "Cozinha",
+          "weight": 14,
+          "id": "idmvg3w1ij29foels",
+          "x": 4.125,
+          "y": 0,
+          "w": 2.625,
+          "h": 7.817,
+          "color": "#fce8e6"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 1",
+          "weight": 14,
+          "id": "idmvg3w1ij7mpm87v",
+          "x": 6.75,
+          "y": 0,
+          "w": 5.25,
+          "h": 3.909,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 2",
+          "weight": 14,
+          "id": "idmvg3w1ijmvo4aa5",
+          "x": 6.75,
+          "y": 3.909,
+          "w": 5.25,
+          "h": 3.908,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Quarto",
+          "name": "Quarto 3",
+          "weight": 14,
+          "id": "idmvg3w1ijhh2bawk",
+          "x": 0,
+          "y": 7.817,
+          "w": 5.91,
+          "h": 3.472,
+          "color": "#e9efff"
+        },
+        {
+          "type": "Banheiro",
+          "name": "Banheiro 1",
+          "weight": 6,
+          "id": "idmvg3w1ij7l4ttxn",
+          "x": 0,
+          "y": 11.289,
+          "w": 3.733,
+          "h": 2.356,
+          "color": "#ddf5f8"
+        },
+        {
+          "type": "Banheiro",
+          "name": "Banheiro 2",
+          "weight": 6,
+          "id": "idmvg3w1ijaegkk53",
+          "x": 0,
+          "y": 13.645,
+          "w": 3.733,
+          "h": 2.355,
+          "color": "#ddf5f8"
+        },
+        {
+          "type": "Lavanderia",
+          "name": "Lavanderia",
+          "weight": 7,
+          "id": "idmvg3w1ijuforiyf",
+          "x": 3.733,
+          "y": 11.289,
+          "w": 2.177,
+          "h": 4.711,
+          "color": "#e6f4ed"
+        },
+        {
+          "type": "Garagem",
+          "name": "Garagem",
+          "weight": 23,
+          "id": "idmvg3w1ij214g0f0",
+          "x": 5.91,
+          "y": 7.817,
+          "w": 6.09,
+          "h": 5.536,
+          "color": "#e7e9ec"
+        },
+        {
+          "type": "Circulação",
+          "name": "Circulação",
+          "weight": 11,
+          "id": "idmvg3w1ij8mjqpyp",
+          "x": 5.91,
+          "y": 13.353,
+          "w": 6.09,
+          "h": 2.647,
+          "color": "#f3eeff"
+        }
+      ],
+      "customWalls": [],
+      "openings": [
+        {
+          "id": "idmvg3w1ij94kt6kb",
+          "kind": "door",
+          "x": 4.125,
+          "y": 1.955,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ij72cquwv",
+          "kind": "window",
+          "x": 0,
+          "y": 1.955,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ijyqemuvx",
+          "kind": "window",
+          "x": 5.018,
+          "y": 0,
+          "width": 1.16
+        },
+        {
+          "id": "idmvg3w1ij7hxfr1q",
+          "kind": "door",
+          "x": 9.375,
+          "y": 3.909,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ijrs56jkh",
+          "kind": "window",
+          "x": 9.375,
+          "y": 0,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ijf98aqxo",
+          "kind": "window",
+          "x": 12,
+          "y": 5.863,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ijjb9pir5",
+          "kind": "door",
+          "x": 1.867,
+          "y": 7.817,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ij7m8m10f",
+          "kind": "window",
+          "x": 0,
+          "y": 9.553,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ijtp9gnms",
+          "kind": "door",
+          "x": 1.867,
+          "y": 11.289,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ijwrtoe4b",
+          "kind": "window",
+          "x": 0,
+          "y": 12.321,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ijez8joji",
+          "kind": "door",
+          "x": 1.867,
+          "y": 13.645,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ij8uxqci2",
+          "kind": "window",
+          "x": 1.867,
+          "y": 16,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ikn1pg76r",
+          "kind": "door",
+          "x": 3.733,
+          "y": 14.823,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ik03d0u4z",
+          "kind": "window",
+          "x": 5.018,
+          "y": 16,
+          "width": 1.16
+        },
+        {
+          "id": "idmvg3w1ik77he7fl",
+          "kind": "door",
+          "x": 9.375,
+          "y": 7.817,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ikb4f1edv",
+          "kind": "window",
+          "x": 12,
+          "y": 9.553,
+          "width": 1.2
+        },
+        {
+          "id": "idmvg3w1ikhgvynvx",
+          "kind": "door",
+          "x": 9.375,
+          "y": 13.353,
+          "width": 0.85
+        },
+        {
+          "id": "idmvg3w1ikjzh50yc",
+          "kind": "window",
+          "x": 9.375,
+          "y": 16,
+          "width": 1.2
+        }
+      ]
+    }
+  ]
+}

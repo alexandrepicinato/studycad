@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+AddType application/manifest+json .webmanifest
+AddType image/svg+xml .svg
+AddType application/wasm .wasm
+<FilesMatch "^(\.env|\.user\.ini|composer\.(json|lock)|\.htaccess)$">
+Require all denied
+</FilesMatch>
